@@ -12,6 +12,11 @@
   padding: 6px 7px 7px 7px;
 }
 
+.CouponModal__email-form {
+  border-left: 1px solid black;
+  text-align: center;
+}
+
 .CouponModal .ant-btn {
   border-radius: 0px;
 }

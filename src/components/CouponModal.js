@@ -61,11 +61,7 @@ function CouponModal({ coupon, visible = false, onCancel }) {
             </Col>
           </Row>
         </Col>
-        <Col
-          className="CouponModal__email-form"
-          span={12}
-          style={{ borderLeft: '1px solid black', textAlign: 'center' }}
-        >
+        <Col className="CouponModal__email-form" span={12}>
           <p>
             <MailOutlined style={{ fontSize: 32 }} />
           </p>
