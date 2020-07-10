@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Row, Col, Button } from 'antd';
+import { Row, Col } from 'antd';
 import { ClickableCouponCard } from './components/CouponCard';
 import CouponModal from './components/CouponModal';
 import { fetchCoupons } from './services/coupons';
