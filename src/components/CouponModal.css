@@ -1,0 +1,28 @@
+.CouponModal__title {
+  display: flex;
+  align-items: center;
+}
+
+.CouponModal__title__headline {
+  margin-bottom: 0px;
+}
+
+.CouponModal__code {
+  border: 1px solid #1890ff;
+  padding: 6px 7px 7px 7px;
+}
+
+.CouponModal .ant-btn {
+  border-radius: 0px;
+}
+
+.CouponModal .ant-input-group-addon {
+  padding: 0;
+  border: 0;
+}
+
+@media (max-width: 576px) {
+  .CouponModal__email-form {
+    display: none;
+  }
+}
