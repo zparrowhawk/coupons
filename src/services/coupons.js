@@ -1,6 +1,6 @@
 import { COUPONS_API_ROOT } from '../constants';
+import fetchRetry from '../helpers/fetchRetry';
 
 export const fetchCoupons = async () => {
-  const response = await fetch(`${COUPONS_API_ROOT}/coupons`);
-  return await response.json();
+  return await fetchRetry(`${COUPONS_API_ROOT}/coupons`);
 };

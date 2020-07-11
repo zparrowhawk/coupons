@@ -18,7 +18,7 @@ export function ClickableCouponCard({ onClick, ...props }) {
   );
 }
 
-function CouponCard({ coupon, onClick }) {
+function CouponCard({ coupon }) {
   const { store } = coupon;
 
   return (
