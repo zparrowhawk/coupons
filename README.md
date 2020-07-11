@@ -6,7 +6,7 @@
 
 `$ npm start`
 
-`$npm run test` - just a couple of example tests are available
+`$ npm run test` - just a couple of example tests are available
 
 ## Mock APIs
 
